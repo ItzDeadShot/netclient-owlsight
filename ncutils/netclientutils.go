@@ -494,7 +494,7 @@ func GetInterfaceName() string {
 	if runtime.GOOS == "darwin" {
 		return "utun69"
 	}
-	return "netmaker"
+	return "wg-perisai"
 }
 
 // RandomMacAddress returns a random macaddress
